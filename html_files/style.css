@@ -1,0 +1,15 @@
+
+.categories h1{
+text-align:center;
+}
+
+.categories ul{
+padding:0;
+list-style:square;
+list-style:none
+}
+
+categories li{
+padding-bottom:6px;
+border-bottom:dotted 1px #333;
+list-style-image:url('check.png');

@@ -1,0 +1,200 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+body
+{
+  font-family : 'Inter', sans-serif;
+  background-color: #f3b9e3;
+
+}
+
+header div nav
+{
+  height: 90px;
+  background-color: #f3b9e3;
+  box-shadow: 10px 10px 40px lightgrey;
+
+}
+
+.logo
+{
+  height: 10px;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+
+.logo img
+{
+  height: 50px;
+}
+
+ul
+{
+  text-decoration: none;
+  float: right;
+  display: inline-block;
+}
+
+ul li
+{
+  text-decoration: none;
+  float: right;
+  display: inline-block;
+}
+
+ul li a
+{
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 20px;
+  position: relative;
+  top: 20px;
+}
+
+.input
+{
+  height: 50px;
+  width: 550px;
+  padding: 20px;
+  position: absolute;
+  left: 400px;
+  top: 20px;
+  display: inline-block;
+}
+
+.background_img
+{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.about
+{
+  font-size: 40px;
+  line-height: 80px;
+  padding: 30px;
+  text-shadow: 10px 10px 40px lightgrey;
+  position: relative;
+  top: 250px;
+  left: 100px;
+}
+
+.site_info
+{
+  display:flex;
+  align-items:
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image_site
+{
+  height: 550px;
+  width: auto;
+  padding: 30px;
+}
+
+.text
+{
+  font-size: 20px;
+}
+
+.btn
+{
+  display: inline-block;
+  font-size: 10px;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  bottom: 60px;
+
+}
+
+.product
+{
+  padding: 50px;
+  display: inline-block;
+  height: 100px;
+  width: auto;
+  flex-basis: 30%;
+}
+
+.product:hover
+{
+  transform: translateY(-5px);
+}
+
+.categories
+{
+  text-align: center;
+  margin: 50px 0px;
+  background-color: white;
+  padding: 50px;
+}
+
+.products_text
+{
+  font-size: 50px;
+  color: black;
+  padding: 30px;
+  text-shadow: 5px 5px 5px lightgray;
+}
+
+.ratings
+{
+  color: gold;
+}
+
+.brands
+{
+  text-align: center;
+}
+
+.brands h2
+{
+  font-size: 50px;
+  color: black;
+  padding: 30px;
+  text-shadow: 5px 5px 5px lightgray;
+}
+
+.brand_img
+{
+  display: inline-block;
+  height: 100px;
+  width: auto;
+  padding: 30px
+}
+
+.brand_img:hover
+{
+  transform: translateY(-5px);
+}
+
+.brand_img img
+{
+  display: inline-block;
+  height: 100px;
+  width: auto;
+  padding: 50px 0px;
+  margin: 30px;
+}
+
+.footer
+{
+  padding: 40px;
+  min-height: 100%;
+  background: #e887b4;
+}
+
+.footer p
+{
+  text-align: center;
+}

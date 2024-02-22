@@ -1,0 +1,76 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+}
+
+body
+{
+  font-family : 'Inter', sans-serif;
+  background-color: #fff;
+}
+
+.title
+{
+  text-align: center;
+}
+
+.title h2
+{
+  font-size: 50px;
+  padding: 30px;
+}
+.Form
+{
+
+  background: lightgray;
+  width: 300px;
+  height: 580px;
+  padding: 20px;
+  margin: 0 auto;
+
+
+}
+
+.Form h4
+{
+  padding: 20px 0px;
+}
+
+
+.object
+{
+  height: 9px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.Form p
+{
+  padding: 5px;
+}
+
+.btn
+{
+  background-color: green;
+  color: white;
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 5px;
+  position: relative;
+  top: 20px;
+  bottom: 20px;
+}
+
+.btn p
+{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.btn a
+{
+  text-decoration: none;
+}
